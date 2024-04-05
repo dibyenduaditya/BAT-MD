@@ -3,24 +3,24 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 
 //═══════[Required Variables]════════\\
-global.owner = process.env.OWNER_NUMBER || '2347045035241'  // Make SURE its Not Be Empty, Else Bot Stoped And Errors,
+global.owner = process.env.OWNER_NUMBER || '918653805156'  // Make SURE its Not Be Empty, Else Bot Stoped And Errors,
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://ahil1:787191784abhi@ahil1.kzr1tt3.mongodb.net/?retrywrites=true&w=majority"
 global.port= process.env.PORT || 5000
 global.email = 'maxdavid126@gmail.com'
-global.github = 'https://github.com/EX-BOTS/BAT-MD'
+global.github = 'https://github.com/dibyenduaditya/BAT-MD'
 global.location = 'Lahore pakistan'
-global.gurl = 'https://instagram.com/alex_david/' // add your username
-global.sudo = process.env.SUDO || "2347045035241"
-global.devs = '2347045035241'
-global.website = 'https://github.com/EX-BOTS/BAT-MD' //wa.me/+91000000000000
+global.gurl = 'https://instagram.com/i_aam_adi07/' // add your username
+global.sudo = process.env.SUDO || "918653805156"
+global.devs = '918653805156'
+global.website = 'https://chat.whatsapp.com/KIks9zxaRujBqDjNEQtY29' //wa.me/+91000000000000
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/3f3ae4aace2d012c11509.jpg'
 module.exports = {
   sessionName: process.env.SESSION_ID || "",      //Put Your Session Id Here
-  author:  process.env.PACK_AUTHER ||  'STAR MD BOT',
-  packname:  process.env.PACK_NAME || 'MADE BY EXCEL ',
+  author:  process.env.PACK_AUTHER ||  '𝐌𝐑.𝐗-𝐀𝐃𝐈𝐓𝐘𝐀',
+  packname:  process.env.PACK_NAME || 'MADE BY 𝐀𝐃𝐈𝐓𝐘𝐀-𝐗𝐃 ',
 
-  botname:   process.env.BOT_NAME === undefined ? "STAR-MD" : process.env.BOT_NAME,
-  ownername: process.env.OWNER_NAME === undefined ? 'alexdavid' : process.env.OWNER_NAME,  
+  botname:   process.env.BOT_NAME === undefined ? "[ !! < 𝐀ᴅɪᴛʏᴀ-𝐗ᴅ > !! ]" : process.env.BOT_NAME,
+  ownername: process.env.OWNER_NAME === undefined ? '[ !! < 𝐌ʀ.x-𝐀ᴅɪᴛʏᴀ > !! ]' : process.env.OWNER_NAME,  
   auto_read_status :  process.env.AUTO_READ_STATUS === undefined ? false : process.env.AUTO_READ_STATUS,
   autoreaction:  process.env.AUTO_REACTION  === undefined ? false : process.env.AUTO_REACTION ,
   antibadword :  process.env.ANTI_BAD_WORD === undefined ? 'nbwoed' : process.env.ANTI_BAD_WORD,
@@ -37,7 +37,7 @@ module.exports = {
   BRANCH: 'main', 
   ALIVE_MESSAGE:  process.env.ALIVE_MESSAGE === undefined ? '' : process.env.ALIVE_MESSAGE,
   autobio:  process.env.AUTO_BIO === undefined ? true : process.env.AUTO_BIO,
-  caption :process.env.CAPTION || "\t*•ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝚂𝚃𝙰𝚁-𝙼𝙳•* ",   //*『sᴜʙsᴄʀɪʙᴇ •  ᴛᴇᴄʜ x』*\n https://whatsapp.com/channel/0029Va9wmuz8F2pGIURwmo0m"),        
+  caption :process.env.CAPTION || "𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐓𝐨 𝐀𝐃𝐈𝐓𝐘𝐀-𝐗𝐃 𝐎𝐅𝐅𝐈𝐂𝐈𝐀𝐋",   //*『sᴜʙsᴄʀɪʙᴇ •  ᴛᴇᴄʜ x』*\n https://whatsapp.com/channel/0029Va9wmuz8F2pGIURwmo0m"),        
   OPENAI_API_KEY:  process.env.OPENAI_API_KEY === undefined ? false : process.env.OPENAI_API_KEY,
   heroku:  process.env.heroku === undefined ? false : process.env.heroku,
   HEROKU: {
